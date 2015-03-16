@@ -7,17 +7,7 @@ require_once "/UpdateFormHeader.php";
 $returnData = (object) null;
 $returnData->error = "";
 
-if (
-	!isset( $_REQUEST['recordid'] ) ||
-	!isset( $_REQUEST['name'] ) ||
-	!isset( $_REQUEST['email'] ) ||
-	!isset( $_REQUEST['action'] )
-) {
-		
-	$returnData->error = "Required fields missing";
-	echo json_encode($returnData);
-	die();
-}	
+!!! Shane removed this entire if statement !!!
 
 if ( $_REQUEST['action'] == 'change' )
 	{
