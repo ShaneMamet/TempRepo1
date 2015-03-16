@@ -2,10 +2,9 @@
 
 session_start();
 
+adsasdadada
 
-$returnData = new stdClass();
-$returnData->success = false;
-$returnData->error = "";
+asdasdasdasd
 
 if ( !isset( $_SESSION['BaseUrl']) ) {
 
