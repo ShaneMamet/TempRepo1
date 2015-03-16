@@ -9,9 +9,6 @@ $returnData->error = "";
 /*
 creation_date
 title
-description
-userid
-fica_party_id
 filename
 pages
 directory
