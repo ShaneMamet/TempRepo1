@@ -44,6 +44,6 @@ if ( !is_int($count) ) { //Check if the query returns a count ("1 row affect" et
 	$returnData->success = true;
 }
 
-echo json_encode($returnData);
+
 	
 ?>
