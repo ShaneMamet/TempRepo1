@@ -8,7 +8,6 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 require_once "/StripData.php";
 require_once "/UpdateFormHeader.php";
 
-$returnData = (object) null;
 $returnData->error = "";
 
 !!! Shane removed this entire if statement !!!
